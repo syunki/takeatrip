@@ -27,7 +27,7 @@ window.onload = function(){
 		}
 	});
 	
-	// ラベル作成クラス
+	// ラベル作成関数
 	var createLavel = function(scene, text, align, color, x, y, fontsize, touchStart = null, enterFrame = null, returnFlag = false){
 		var label = new Label(text);
 		if(align){
